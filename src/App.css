@@ -11,3 +11,12 @@ very-dark-blue : #192535
 dark-green : #4f7061
 very-dark-red: #656464
 } */
+
+ i {
+    font-size: 50px;
+    color: #fbbd36;
+ }
+ 
+ svg {
+    width: 50px;
+ }
