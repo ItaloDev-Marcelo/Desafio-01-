@@ -1,5 +1,7 @@
 import Header from './pages/header';
 import Skills from './pages/skills';
+import Projects from './pages/projects';
+// import Form from './components/Form/Form';
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
     <>
     <Header/>
     <Skills/>
+    <Projects/>
     </>
   );
 }
