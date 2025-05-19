@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+   scroll-behavior: smooth ;
+}
 
 body {
    font-family: "Oswald", sans-serif;
+   
+   overflow-x: hidden;
 }
 
 @keyframes typing {
@@ -51,6 +56,10 @@ body {
 
  h1, h2, h3, h4, li {
     color: #192535;
+ }
+
+ .navbar ul li a {
+   color: #fff;
  }
 
  footer {

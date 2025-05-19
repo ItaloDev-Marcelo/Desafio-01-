@@ -2,9 +2,9 @@
 
 export default function SkillsSection() {
   return (
-    <section className="flex flex-col justify-center items-center my-10 p-2 skills ">
-      <h2 className='text-4xl font-semibold my-10 '>Skills</h2>
-      <button className="flex flex-row justify-center items-center flex-wrap gap-5 py-6 ">
+    <section id='skill-section' className="flex flex-col justify-center items-center my-10 p-2 skills ">
+      <h2 className='text-4xl font-semibold my-10 from-left'>Skills</h2>
+      <button className="from-left flex flex-row justify-center items-center flex-wrap gap-5 py-6 ">
         <button aria-description="icon html5">
           <i className="fa-brands fa-html5"></i>
         </button>

@@ -9,10 +9,10 @@ export default function NavDesk() {
            </a>
 
            <ul className='flex gap-x-7'>
-              <li className='font-medium'>Home</li>
-              <li className='font-medium'>Skills</li>
-              <li className='font-medium'>Projects</li>
-              <li className='font-medium'>Contact</li>
+              <li className='font-medium'><a href='#header-section'>Home</a> </li>
+              <li className='font-medium'><a href='#skill-section'>Skills</a></li>
+              <li className='font-medium'><a href='#project-section'>Projects</a></li>
+              <li className='font-medium'><a href='#contact-section'>Contact</a></li>
            </ul>
          </nav>
     )

@@ -6,7 +6,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 export default function Footer() {
     return (
-         <footer className='flex flex-col justify-center lg:flex-row lg:justify-between items-center py-12 px-20 mt-40'>
+         <footer id="footer-section" className='from-right  flex flex-col justify-center lg:flex-row lg:justify-between items-center py-12 px-20 mt-40'>
              <a  href='index.html' className='font-bold'>
                          <CodeIcon fontSize="large"/>
                        </a>

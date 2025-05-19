@@ -16,14 +16,17 @@ export default function NavMobile() {
            flexDirection: 'column',
            justifyContent: 'flex-start',
            alignItems: 'center',
-            position: 'absolute', left: 0, top: '11%', padding: '2em 1em', width: '100%', height: '100%', background: '#192535'}}>
+            position: 'absolute', left: 0, top: '11%', padding: '2em 1em', 
+            width: '100%', height: '100%', background: '#192535'}}
+            className={toggleMenu ? 'navbar' : 'navbar active'}
+            >
               <Button sx={{width: '40px', alignSelf: 'flex-end'}}  aria-description='botão para fechar menu' onClick={hundleToggleMenu}>
                 <CloseIcon /></Button>
               <List sx={{color : '#fff'}}>
-                 <ListItem className='font-medium'>Home</ListItem>
-                 <ListItem className='font-medium'>Skills</ListItem>
-                 <ListItem className='font-medium'>Projects</ListItem>
-                 <ListItem className='font-medium'>Contact</ListItem>
+                 <ListItem className='font-medium' onClick={hundleToggleMenu}><a href='#header-section'>Home</a> </ListItem>
+                 <ListItem className='font-medium' onClick={hundleToggleMenu}><a href='#skill-section'>Skills</a></ListItem>
+                 <ListItem className='font-medium' onClick={hundleToggleMenu}><a href='#project-section'>Projects</a></ListItem>
+                 <ListItem className='font-medium' onClick={hundleToggleMenu}><a href='#contact-section'>Contact</a></ListItem>
               </List>
            </Stack>
          </nav>
