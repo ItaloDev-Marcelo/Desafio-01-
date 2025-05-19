@@ -19,6 +19,7 @@ export default function NavMobile() {
             position: 'absolute', left: 0, top: '11%', padding: '2em 1em', 
             width: '100%', height: '100%', background: '#192535'}}
             className={toggleMenu ? 'navbar' : 'navbar active'}
+            zIndex={2}
             >
               <Button sx={{width: '40px', alignSelf: 'flex-end'}}  aria-description='botão para fechar menu' onClick={hundleToggleMenu}>
                 <CloseIcon /></Button>
