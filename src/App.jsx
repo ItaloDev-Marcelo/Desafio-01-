@@ -1,7 +1,8 @@
 import Header from './pages/header';
 import Skills from './pages/skills';
 import Projects from './pages/projects';
-// import Form from './components/Form/Form';
+import Form from './components/Form/Form';
+import Footer from './pages/footer';
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
     <Header/>
     <Skills/>
     <Projects/>
+    <Form/>
+    <Footer/>
     </>
   );
 }

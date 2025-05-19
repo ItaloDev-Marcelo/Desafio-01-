@@ -3,14 +3,38 @@
 @tailwind utilities;
 
 
-/* :root {
-    pale-orange : #fdf2de
-orange-m : #fbbd36
-dark-blue : #4b4a5a
-very-dark-blue : #192535
-dark-green : #4f7061
-very-dark-red: #656464
+body {
+   font-family: "Oswald", sans-serif;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: yellow }
+}
+
+/* @theme {
+--pale-orange : #fdf2de;
+--orange-m : #fbbd36;
+--dark-blue : #4b4a5a;
+--very-dark-blue : #192535;
+--dark-green : #4f7061;
+--very-dark-red: #656464;
 } */
+
+.my-name {
+   
+     white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid yellow;
+  width: 0;
+    animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+}
+
 
  i {
     font-size: 50px;
@@ -19,4 +43,34 @@ very-dark-red: #656464
  
  svg {
     width: 50px;
+ }
+
+ button svg {
+   color: #192535;
+ }
+
+ h1, h2, h3, h4, li {
+    color: #192535;
+ }
+
+ footer {
+  background-color: #192535;
+  color: #fff !important;
+ }
+
+ footer button svg {
+  color: #fff;
+ }
+
+.form-header button:hover svg ,
+footer button:hover svg , footer a:hover svg {
+  color: #fbbd36;
+ }
+
+
+
+
+
+ p {
+   color: #000;
  }

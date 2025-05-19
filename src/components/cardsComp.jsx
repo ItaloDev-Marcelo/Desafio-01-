@@ -14,7 +14,7 @@ export default function CardComp({img,alt,projeto,code, k, imageTitle}) {
                <div className='p'>
                     <CardActions >
                   <a href={projeto} target='_blank' className='md:pl-3'>
-                    <Button variant="contained" sx={{backgroundColor:  '#fbbd36', color: '#fff'}} >Projets</Button>
+                    <Button variant="contained" sx={{backgroundColor:  '#fbbd36', color: '#fff'}} >Projeto</Button>
                   </a>
                    <a href={code} target='_blank'>
                     <Button variant="contained" sx={{backgroundColor:  '#fbbd36', color: '#fff'}} >code</Button>

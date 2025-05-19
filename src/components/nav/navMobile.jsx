@@ -21,9 +21,9 @@ export default function NavMobile() {
                 <CloseIcon /></Button>
               <List sx={{color : '#fff'}}>
                  <ListItem className='font-medium'>Home</ListItem>
-                 <ListItem className='font-medium'>About</ListItem>
                  <ListItem className='font-medium'>Skills</ListItem>
                  <ListItem className='font-medium'>Projects</ListItem>
+                 <ListItem className='font-medium'>Contact</ListItem>
               </List>
            </Stack>
          </nav>

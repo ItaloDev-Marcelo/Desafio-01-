@@ -63,7 +63,7 @@ export default [
     alt: "Dine-Restaurant",
     title: "Dine Restaurant",
     imageTitle: "Desafio do frontend Mentor",
-    projeto: "https://dine-restaurant-ch-mui-17.vercel.app/DineHomePage",
+    projeto: "https://dine-restaurant-ch-mui-17.vercel.app",
     code: "https://github.com/ItaloDev-Marcelo/DineRestaurant-CH-MUI-17",
   },
   {
