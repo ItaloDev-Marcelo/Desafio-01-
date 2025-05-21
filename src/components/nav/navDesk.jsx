@@ -3,7 +3,7 @@ import CodeIcon from '@mui/icons-material/Code';
 export default function NavDesk() {
 
     return (
-          <nav className='hidden lg:flex justify-between h-10 items-center py-12 px-20 '>
+          <nav className='hidden lg:flex justify-between h-10 items-center py-12 px-20 desk-nav'>
            <a  href='index.html' className='font-bold'>
              <CodeIcon fontSize="large"/>
            </a>
