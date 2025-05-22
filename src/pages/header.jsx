@@ -21,7 +21,7 @@ export default function Header() {
                      eu sou <br className='hidden lg:flex' /> <span  className='text-yellow-400 lg:text-6xl my-name'> {text} </span>  </h1>
                    <p className="text-center lg:text-left font-serif font-medium md:px-40 lg:p-0">Desenvolvedor Frontend desde 2023. Sou apaixonado por programação e meu maior ponto forte é a persistência: nunca desisto e estou sempre superando meus limites para evoluir constantemente.</p>
                    <div  className='flex justify-center lg:justify-start mt-5 '>
-                      <Button variant="contained" href="https://drive.google.com/file/d/19dD7SGTAQm4D4LdtHphp_F0GlHcW0BvZ/view?usp=sharing" target='_blank' sx={{backgroundColor:  '#fbbd36', color: '#fff'}}>CV</Button>
+                      <Button variant="contained" href="https://drive.google.com/file/d/19dD7SGTAQm4D4LdtHphp_F0GlHcW0BvZ/view?usp=drive_link" target='_blank' rel='noopener noreferrer'  sx={{backgroundColor:  '#fbbd36', color: '#fff'}}>CV</Button>
                    </div>
                </section>
             
